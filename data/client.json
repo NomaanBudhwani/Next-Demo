@@ -1,0 +1,429 @@
+{
+    "General Information": [
+        {
+            "id":"firstName",
+            "label":"First Name",
+            "placeholder":"First Name",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"name",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"middleInitial",
+            "label":"Middle Initial",
+            "placeholder":"Middle Initial",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"name",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"lastName",
+            "label":"Last Name",
+            "placeholder":"Last Name",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"name",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"suffix",
+            "label":"Suffix",
+            "placeholder":"Suffix",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"name",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"ssn",
+            "label":"Social Security Number",
+            "placeholder":"AAA-GG-SSSS",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"ssn",
+            "isRequired": true,
+            "area":3, 
+            "max":11
+        },
+        {
+            "id":"occupation",
+            "label":"Occupation",
+            "placeholder":"Occupation",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"text",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"dob",
+            "label":"Date of Birth",
+            "placeholder":"Date of Birth",
+            "fieldType":"date",
+            "dataType":"date",
+            "inputType":"date",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"dod",
+            "label":"Date of Death",
+            "placeholder":"Date of Birth ",
+            "fieldType":"date",
+            "dataType":"date",
+            "inputType":"date",
+            "isRequired": false,
+            "area":3 
+        },
+        {
+            "id":"legallyBlind",
+            "label":"Legally Blind",
+            "placeholder":"Legally Blind",
+            "fieldType":"checkBox",
+            "dataType":"checkbox",
+            "inputType":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"totallyDisabled",
+            "label":"Totally Disabled",
+            "placeholder":"Totally Disabled",
+            "fieldType":"checkBox",
+            "dataType":"checkbox",
+            "inputType":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"claimedDependent",
+            "label":"Claimed as a Dependent",
+            "placeholder":"Claimed as a Dependent",
+            "fieldType":"checkBox",
+            "dataType":"checkbox",
+            "inputType":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"pef",
+            "label":"Presidential Election Fund ($3)",
+            "placeholder":"Presidential Election Fund ($3)",
+            "fieldType":"checkBox",
+            "dataType":"checkbox",
+            "inputType":"",
+            "isRequired": true,
+            "area":3 
+        }
+    ],
+    "Communication" :[
+        {
+            "id":"homePhone",
+            "label":"Home Phone",
+            "placeholder":"Home Phone",
+            "fieldType":"input",
+            "dataType":"tel",
+            "inputType":"phone",
+            "isRequired": true,
+            "area":3,
+            "max":14
+        },
+        {
+            "id":"workPhone",
+            "label":"Work Phone",
+            "placeholder":"Work Phone",
+            "fieldType":"input",
+            "dataType":"tel",
+            "inputType":"phone",
+            "isRequired": true,
+            "area":3,
+            "max":14
+        },
+        {
+            "id":"cellPhone",
+            "label":"Cell Phone",
+            "placeholder":"Cell Phone",
+            "fieldType":"input",
+            "dataType":"tel",
+            "inputType":"phone",
+            "isRequired": true,
+            "area":3,
+            "max":14
+        },
+        {
+            "id":"email",
+            "label":"E-mail address",
+            "placeholder":"E-mail address",
+            "fieldType":"input",
+            "dataType":"email",
+            "inputType":"email",
+            "isRequired": true,
+            "area":3 
+        }
+    ],
+    "Additional Information":[
+        {
+            "id":"idType",
+            "label":"ID Type",
+            "placeholder":"Select Type",
+            "fieldType":"dropdown",
+            "dataType":[],
+            "inputType":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"idNumber",
+            "label":"ID number",
+            "placeholder":"ID number",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"number",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"idState",
+            "label":"ID issuing state",
+            "placeholder":"ID issuing state",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"text",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"idIssueDate",
+            "label":"ID issue date",
+            "placeholder":"ID issue date",
+            "fieldType":"date",
+            "dataType":"date",
+            "inputType":"date",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"idExpDate",
+            "label":"ID expiration date",
+            "placeholder":"ID expiration date",
+            "fieldType":"date",
+            "dataType":"date",
+            "inputType":"date",
+            "isRequired": true,
+            "area":3 
+        }
+    ],
+    "Filing Status":[
+        {
+            "id":"statusOnReturn",
+            "label":"Status on $year return",
+            "placeholder":"Select",
+            "fieldType":"dropdown",
+            "dataType":[],
+            "inputType":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"statusToDate",
+            "label":"Status as of $date",
+            "placeholder":"select",
+            "fieldType":"radioButton",
+            "dataType":[],
+            "inputType":"",
+            "isRequired": true,
+            "area":3 
+        }
+    ],
+    "Spouse Information": [
+        {
+            "id":"spouseFirstName",
+            "label":"First Name",
+            "placeholder":"First Name",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"name",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"spouseMiddleInitial",
+            "label":"Middle Initial",
+            "placeholder":"Middle Initial",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"name",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"spouseLastName",
+            "label":"Last Name",
+            "placeholder":"Last Name",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"name",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"spouseSuffix",
+            "label":"Suffix",
+            "placeholder":"Suffix",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"name",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"spouseSsn",
+            "label":"Social Security Number",
+            "placeholder":"AAA-GG-SSSS",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"ssn",
+            "isRequired": true,
+            "area":3, 
+            "max":11
+        },
+        {
+            "id":"spouseOccupation",
+            "label":"Occupation",
+            "placeholder":"Occupation",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"text",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"spouseDob",
+            "label":"Date of Birth",
+            "placeholder":"Date of Birth",
+            "fieldType":"date",
+            "dataType":"date",
+            "inputType":"date",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"spouseDod",
+            "label":"Date of Death",
+            "placeholder":"Date of Birth ",
+            "fieldType":"date",
+            "dataType":"date",
+            "inputType":"date",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"spouseLegallyBlind",
+            "label":"Legally Blind",
+            "placeholder":"Legally Blind",
+            "fieldType":"checkBox",
+            "dataType":"checkbox",
+            "inputType":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"spouseTotallyDisabled",
+            "label":"Totally Disabled",
+            "placeholder":"Totally Disabled",
+            "fieldType":"checkBox",
+            "dataType":"checkbox",
+            "inputType":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"spouseClaimedDependent",
+            "label":"Claimed as a Dependent",
+            "placeholder":"Claimed as a Dependent",
+            "fieldType":"checkBox",
+            "dataType":"checkbox",
+            "inputType":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"spousePef",
+            "label":"Presidential Election Fund ($3)",
+            "placeholder":"Presidential Election Fund ($3)",
+            "fieldType":"checkBox",
+            "dataType":"checkbox",
+            "inputType":"",
+            "isRequired": true,
+            "area":3 
+        }
+    ],
+    "Address":[
+        {
+            "id":"Street",
+            "label":"Street",
+            "placeholder":"Street",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"text",
+            "isRequired": true,
+            "area":6 
+        },
+        {
+            "id":"aptSuite",
+            "label":"Apt/Suite",
+            "placeholder":"Apt/Suite",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"text",
+            "isRequired": false,
+            "area":3 
+        },
+        {
+            "id":"city",
+            "label":"City",
+            "placeholder":"City",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"text",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"state",
+            "label":"State",
+            "placeholder":"State",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"text",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"zipCode",
+            "label":"Zip Code",
+            "placeholder":"Zip Code",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"text",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"country",
+            "label":"Country",
+            "placeholder":"Country",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"text",
+            "isRequired": true,
+            "area":3 
+        }
+    ]
+}

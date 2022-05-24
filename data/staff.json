@@ -1,0 +1,370 @@
+{
+    "staff":{
+        "General Information":[
+            {
+                "id":"firstName",
+                "label":"First Name",
+                "placeholder":"First Name",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"name",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"middleInitial",
+                "label":"Middle Initial",
+                "placeholder":"Middle Initial",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"name",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"lastName",
+                "label":"Last Name",
+                "placeholder":"Last Name",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"name",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"suffix",
+                "label":"Suffix",
+                "placeholder":"Suffix",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"name",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"ssn",
+                "label":"Social Security Number",
+                "placeholder":"AAA-GG-SSSS",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"ssn",
+                "isRequired": true,
+                "area":3, 
+                "max":11
+            },
+            {
+                "id":"dob",
+                "label":"Date of Birth",
+                "placeholder":"Date of Birth",
+                "fieldType":"date",
+                "dataType":"date",
+                "inputType":"date",
+                "isRequired": true,
+                "area":3 
+            }
+        ],
+    "Address":[
+            {
+                "id":"street",
+                "label":"Street",
+                "placeholder":"Street",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"aptSuite",
+                "label":"Apt/Suite",
+                "placeholder":"Apt/Suite",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"city",
+                "label":"City",
+                "placeholder":"City",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"state",
+                "label":"State",
+                "placeholder":"State",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"zipCode",
+                "label":"Zip Code",
+                "placeholder":"Zip Code",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"country",
+                "label":"Country",
+                "placeholder":"Country",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            }
+        ],
+        "Communication" :[
+            {
+                "id":"cellPhone",
+                "label":"Cell Phone",
+                "placeholder":"Cell Phone",
+                "fieldType":"input",
+                "dataType":"tel",
+                "inputType":"phone",
+                "isRequired": true,
+                "area":3,
+                "max":14
+            },
+            {
+                "id":"alternatePhone",
+                "label":"Alternate Phone",
+                "placeholder":"Alternate Phone",
+                "fieldType":"input",
+                "dataType":"tel",
+                "inputType":"phone",
+                "isRequired": true,
+                "area":3,
+                "max":14
+            },
+            {
+                "id":"email",
+                "label":"E-mail address",
+                "placeholder":"E-mail address",
+                "fieldType":"input",
+                "dataType":"email",
+                "inputType":"email",
+                "isRequired": true,
+                "area":3 
+            }
+        ],
+        "Job Information" :[
+            {
+                "id":"title",
+                "label":"Title",
+                "placeholder":"Title",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "isRequired": true,
+                "area":3,
+                "max":14
+            },
+            {
+                "id":"supervisorId",
+                "label":"Supervisor",
+                "placeholder":"Supervisor",
+                "fieldType":"dropdown",
+                "dataType":[],
+                "inputType":"",
+                "isRequired": false,
+                "area":3
+            },
+            {
+                "id":"departmentId",
+                "label":"Department",
+                "placeholder":"Department",
+                "fieldType":"dropdown",
+                "dataType":[],
+                "inputType":"",
+                "isRequired": true,
+                "area":3
+            },
+            {
+                "id":"workLocationId",
+                "label":"Work Location",
+                "placeholder":"Work Location",
+                "fieldType":"dropdown",
+                "dataType":[],
+                "inputType":"",
+                "isRequired": true,
+                "area":3
+            },
+            {
+                "id":"roleId",
+                "label":"Role",
+                "placeholder":"Role",
+                "fieldType":"dropdown",
+                "dataType":[],
+                "inputType":"",
+                "isRequired": true,
+                "area":3
+            },
+            {
+                "id":"emailAssigned",
+                "label":"E-mail Assigned",
+                "placeholder":"E-mail Assigned",
+                "fieldType":"input",
+                "dataType":"email",
+                "inputType":"email",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"workPhone",
+                "label":"Work Phone",
+                "placeholder":"Work Phone",
+                "fieldType":"input",
+                "dataType":"tel",
+                "inputType":"phone",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"salary",
+                "label":"Salary (Hourly)",
+                "placeholder":"Salary (Hourly)",
+                "fieldType":"input",
+                "dataType":"number",
+                "inputType":"number",
+                "isRequired": false,
+                "area":3 
+            },
+            {
+                "id":"joiningDate",
+                "label":"Joining Date",
+                "placeholder":"Joining Date",
+                "fieldType":"date",
+                "dataType":"date",
+                "inputType":"date",
+                "isRequired": true,
+                "area":3 
+            }
+        ],
+        "Emergency Contact Information":[
+            {
+                "id":"fullNameECI",
+                "label":"Full Name",
+                "placeholder":"Full Name",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"name",
+                "isRequired": true,
+                "area":4 
+            },
+            {
+                "id":"streetECI",
+                "label":"Street",
+                "placeholder":"Street",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"aptSuiteECI",
+                "label":"Apt/Suite",
+                "placeholder":"Apt/Suite",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"cityECI",
+                "label":"City",
+                "placeholder":"City",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"stateECI",
+                "label":"State",
+                "placeholder":"State",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"zipCodeECI",
+                "label":"Zip Code",
+                "placeholder":"Zip Code",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"countryECI",
+                "label":"Country",
+                "placeholder":"Country",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"primaryPhoneECI",
+                "label":"Primary Phone",
+                "placeholder":"Primary Phone",
+                "fieldType":"input",
+                "dataType":"tel",
+                "inputType":"phone",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"alternatePhoneECI",
+                "label":"Alternate Phone",
+                "placeholder":"Alternate Phone",
+                "fieldType":"input",
+                "dataType":"tel",
+                "inputType":"phone",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"relationshipECI",
+                "label":"Relationship",
+                "placeholder":"Relationship",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"name",
+                "isRequired": true,
+                "area":3 
+            }
+        ]
+    }   
+}

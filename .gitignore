@@ -1,0 +1,7 @@
+/build
+/node_modules
+package-lock.json
+/build
+/.next
+next.config.*
+now.json

@@ -1,0 +1,99 @@
+{
+    "client":[
+        {
+            "id":"client_id",
+            "label":"Client",
+            "placeholder":"Select Client",
+            "fieldType":"autoComplete",
+            "dataType":[{"id": "1" , "name" :"Client 1"},{"id": "2" , "name" :"Client 2"}],
+            "inputType":"",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        }
+    ], 
+    "dependent":[
+
+        {
+            "id":"relationship_id",
+            "label":"Relationship",
+            "placeholder":"Select Relationship",
+            "fieldType":"dropdown",
+            "dataType":[],
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"firstName",
+            "label":"First Name",
+            "placeholder":"First Name",
+            "fieldType":"input",
+            "dataType":"text",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"middleInitial",
+            "label":"Middle Initial",
+            "placeholder":"Middle Initial",
+            "fieldType":"input",
+            "dataType":"text",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"lastName",
+            "label":"Last Name",
+            "placeholder":"Last Name",
+            "fieldType":"input",
+            "dataType":"text",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"suffix",
+            "label":"Suffix",
+            "placeholder":"Suffix",
+            "fieldType":"input",
+            "dataType":"text",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"ssn",
+            "label":"Social Security Number",
+            "placeholder":"AAA-GG-SSSS",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"ssn",
+            "isRequired": true,
+            "area":3, 
+            "max":11
+        },
+        {
+            "id":"occupation",
+            "label":"Occupation",
+            "placeholder":"Occupation",
+            "fieldType":"input",
+            "dataType":"text",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"dob",
+            "label":"Date of Birth",
+            "placeholder":"Date of Birth",
+            "fieldType":"input",
+            "dataType":"date",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "client":[
+        {
+            "id":"client_id",
+            "label":"Client",
+            "placeholder":"Select Client",
+            "fieldType":"autoComplete",
+            "dataType":[{"id": "1" , "name" :"Client 1"},{"id": "2" , "name" :"Client 2"}],
+            "inputType":"",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        }
+    ], 
+    "company":{
+        "General Information":[
+        {
+            "id":"relation_id",
+            "label":"Relation",
+            "placeholder":"Select Relation",
+            "fieldType":"dropdown",
+            "dataType":[{"id": "1" , "name" :"Owner"},{"id": "2" , "name" :"Partner"}],
+            "inputType":"",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"companyName",
+            "label":"Company Name",
+            "placeholder":"Company Name",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"text",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"companyEmail",
+            "label":"Company Email",
+            "placeholder":"Company Email",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"email",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        },
+        {
+            "id":"ein",
+            "label":"EIN Number",
+            "placeholder":"XX-XXXXXXX",
+            "fieldType":"input",
+            "dataType":"text",
+            "inputType":"ein",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3,
+            "max":10
+        },
+        {
+            "id":"companyType_id",
+            "label":"Type",
+            "placeholder":"Type",
+            "fieldType":"dropdown",
+            "dataType":[{"id": "1" , "name" :"C Corporation"},{"id": "2" , "name" :"Partnership"}],
+            "inputType":"",
+            "defaultValue":"",
+            "isRequired": true,
+            "area":3 
+        }
+    ],
+    "Address":[
+            {
+                "id":"street",
+                "label":"Street",
+                "placeholder":"Street",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"aptSuite",
+                "label":"Apt/Suite",
+                "placeholder":"Apt/Suite",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"city",
+                "label":"City",
+                "placeholder":"City",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"state",
+                "label":"State",
+                "placeholder":"State",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"zipCode",
+                "label":"Zip Code",
+                "placeholder":"Zip Code",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"country",
+                "label":"Country",
+                "placeholder":"Country",
+                "fieldType":"input",
+                "dataType":"text",
+                "inputType":"text",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            }
+        ],
+        "Services Required" :[
+            {
+                "id":"accountingServices",
+                "label":"Accounting Services",
+                "placeholder":"Accounting Services",
+                "fieldType":"checkBox",
+                "dataType":"checkbox",
+                "inputType":"",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"advisoryServices",
+                "label":"Advisory Services",
+                "placeholder":"Advisory Services",
+                "fieldType":"checkBox",
+                "dataType":"checkbox",
+                "inputType":"",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"financingService",
+                "label":"Financing Service",
+                "placeholder":"Financing Service",
+                "fieldType":"checkBox",
+                "dataType":"checkbox",
+                "inputType":"",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            },
+            {
+                "id":"taxPreparation",
+                "label":"Tax Preparation",
+                "placeholder":"Tax Preparation",
+                "fieldType":"checkBox",
+                "dataType":"checkbox",
+                "inputType":"",
+                "defaultValue":"",
+                "isRequired": true,
+                "area":3 
+            }
+        ]
+    }   
+}
